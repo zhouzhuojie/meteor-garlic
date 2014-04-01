@@ -15,7 +15,7 @@ Add `data-persist="garlic"` to the forms you want to auto-persist:
 </form>
 ```
 
-Add `$( "form[data-persist='garlic']" ).garlic();` to trigger garlicjs if it fails to run at the rendering time.
+Add `$( "form[data-persist='garlic']" ).garlic();` to the rendered function if it fails to run (typically when combined with iron-router, you need to manually trigger `garlic()`).
 
 ``` js
 Template.sth.rendered = function(){
