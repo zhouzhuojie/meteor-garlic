@@ -1,7 +1,7 @@
 meteor-garlic
 ================
 
-Garlic.js allows you to automatically persist your forms' text field values locally, until the form is submitted. See details from the official garlicjs [website](http://garlicjs).
+Garlic.js allows you to automatically persist your forms' text field values locally, until the form is submitted. See details from the official garlicjs [website](http://garlicjs.org/).
 
 Basic usage
 -------------
