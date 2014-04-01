@@ -10,10 +10,19 @@ Add `data-persist="garlic"` to the forms you want to auto-persist:
 
 ``` html
 <form data-persist="garlic">
-  <input type="text" />
+  <input type="text" name="some-unique-id"/>
   ...
 </form>
 ```
+
+Add `$( "form[data-persist='garlic']" ).garlic();` to trigger garlicjs if it fails to run at the rendering time.
+
+``` js
+Template.sth.rendered = function(){
+    $( "form[data-persist='garlic']" ).garlic();
+};
+```
+
 
 Detailed usage
 --------------
