@@ -1,0 +1,3 @@
+[submodule "garlicjs"]
+	path = garlicjs
+	url = https://github.com/guillaumepotier/Garlic.js.git
