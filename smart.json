@@ -3,7 +3,7 @@
   "description": "Automatically persist your forms' text field values locally",
   "homepage": "https://github.com/zhouzhuojie/meteor-garlic",
   "author": "Zhuojie Zhou <zz@pycode.me> (http://zzj.im)",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "git": "https://github.com/zhouzhuojie/meteor-garlic.git",
   "packages": {}
 }
